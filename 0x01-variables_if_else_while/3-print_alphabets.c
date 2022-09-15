@@ -5,28 +5,25 @@
  *
  * Description: print alphabet in lowercase then in uppercase
  *
- * Return: Always 0 (Success)
-*/
+ * Return: ALways 0 (Success)
+ */
 
 int main(void)
 {
 	char ch = 'a';
 	char CH = 'A';
 
-	/*prints a-z*/
-	while (ch <= 'z')
+	/*print a - z */
+	while (ch <= 'z'; ch++)
 	{
-		putchar(ch)
-		++ch;
+		putchar(ch);
 	}
 
-	/*print A-Z*/
-	while (CH <= 'Z')
+	/*print A - Z */
+	while (CH <= 'Z'; CH++)
 	{
-		putchar(CH)
-		++CH;
+		putchar(CH);
 	}
-	putchar('\n');
 
 	return (0);
 }
