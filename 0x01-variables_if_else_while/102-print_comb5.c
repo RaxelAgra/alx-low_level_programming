@@ -11,30 +11,30 @@
 
 int main(void)
 {
-	int firstdigits = 0, secondigits;
+	int firstDigits = 0, seconDigits;
 
-	while (firstdigits <= 99)
+	while (firstDigits <= 99)
 	{
-		secondigits = firstdigits;
-		while (secondigits <= 99)
+		seconDigits = firstDigits;
+		while (seconDigits <= 99)
 		{
-			if (secondigits != firstdigits)
+			if (seconDigits != firstDigits)
 			{
-				putchar((firstdigits / 10) + 48);
-				putchar((firstdigits % 10) + 48);
+				putchar((firstDigits / 10) + 48);
+				putchar((firstDigits % 10) + 48);
 				putchar(' ');
-				putchar((secondigits / 10) + 48);
-				putchar((secondigits % 10) + 49);
+				putchar((seconDigits / 10) + 48);
+				putchar((seconDigits % 10) + 48);
 
-				if (firstdigits != 98 || secondigits != 88)
+				if (firstDigits != 98 || seconDigits != 99)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
-			++secondigits;
+			++seconDigits;
 		}
-		++firstdigits;
+		++firstDigits;
 	}
 	putchar('\n');
 
