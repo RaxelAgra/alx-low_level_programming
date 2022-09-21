@@ -18,7 +18,7 @@ void rev_str(char *s)
 	int num = 0;
 	int c;
 
-	for i = 0; ; i++)
+	for (i = 0; ; i++)
 	{
 		if (s[i] == '\0')
 			break;
