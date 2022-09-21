@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
- * rev_str - check the code
+ * rev_string - check the code
  *
  * @s: Reverse a string
  *
  * Return: ALways 0 (Success)
  */
 
-void rev_str(char *s)
+void rev_string(char *s)
 {
 	int i;
 	int count = 0;
