@@ -1,7 +1,7 @@
-#include<stdio.h>
+#include "main.h"
 
 /**
- * main - test function that prints if int is +ve/-ve
+ * main - tests function that prints if int is +ve/-ve
  *
  * Return: 0
  */
