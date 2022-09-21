@@ -13,7 +13,7 @@ void _puts(char *str)
 {
 	int i;
 
-	for (i = 0; i++)
+	for (i = 0; ; i++)
 	{
 		if (str[i] == '\0')
 			break;
